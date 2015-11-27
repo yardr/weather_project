@@ -1,8 +1,38 @@
 <!doctype html>
 <html>
 <head>
+<meta charset="UTF-8">
+<title>WEATHER INFORMER</title>
 </head>
-<body>
-<h2>Good evening!</h2>
+<body background="images/snowy-fon.jpg">
+    <table width=100% align="center" cellpadding="0" border="0">
+        <tr>
+            <td>
+              <form>
+                  
+                  <select name="langs">
+    <option selected disabled>Language:</option>
+    <option value="eng">English</option>
+    <option value="ukr">Українська</option>
+    </select>
+                </form>
+            </td>
+        <td align="center"><img src="images/Umbrella-64.png" alt="umbrella" ></td>
+            <td align="right">
+                
+                <form>
+                    <select name="temperature">
+    <option selected disabled>Temperature:</option>
+    <option value="cels">Celsius</option>
+    <option value="fahr">Fahrenheit</option>
+    </select>
+                </form>
+            </td></tr>
+    </table>
+<h1 align="center"><font face="Segoe Print" color="0000FF">WEATHER INFORMER</font></h1>
+    <form>
+   <p align="center"><input type="search" name="q" size="30" placeholder="Enter your location"> 
+   <input type="submit" value="Search"></p>
+  </form>
 </body>
 </html>
