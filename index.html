@@ -10,7 +10,7 @@
     <table width=100% align="center" cellpadding="0" border="0">
     <tr>
      <td>
-      <form>
+      <form id="slanguage">
        <select name="langs">
        <option selected disabled>Language:</option>
        <option value="eng">English</option>
@@ -22,7 +22,7 @@
         <img src="https://cloud.githubusercontent.com/assets/16001740/11448267/4d093b1c-955d-11e5-9314-a69094d8041a.png" alt="umbrella" >
      </td>
      <td align="right">
-      <form>
+      <form id="stemp">
        <select name="temperature">
        <option selected disabled>Temperature:</option>
        <option value="cels">Celsius</option>
@@ -104,6 +104,21 @@
     </tr>
   
    </table>
+   
+   <br>
+   <br>
+   <br>
+   <legend>Leave your feedback below</legend>
+   <form id="contact" method="post" align="center">
+    <fieldset>
+     <label for="name">Name</label>
+     <input type="text" name="name"/ maxlength="40">
+     <label for="email">E-mail</label>
+     <input type="email" name="email">
+     <label for="textarea">Your message</label>
+     <textarea name="message" rows="5"></textarea>
+    </fieldset>
+   </form>
     
   </body>
 </html>
