@@ -49,6 +49,7 @@ table {
 }
     /* end of reset */
 html, body, #wrapper {height:100%;}
+
 body {
     background-image:url(images/snowy.jpg);
     background-attachment: fixed;
@@ -89,6 +90,19 @@ body {
     margin-top:20px;
     position:fixed;
     right:50px;
+
+}
+/*головне поле*/
+article {
+    position:relative;
+    height: 140px;
+    background-color: rgba(217, 221, 237, 0.8);
+    padding:15px;
+    margin-top: 90px;
+    margin-left:150px;
+    margin-right:150px;
+    margin-bottom:auto;
+    border-radius:20px;
 }
 
 
