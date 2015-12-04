@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
     /* end of reset */
+html, body, #wrapper {height:100%;}
 body {
     background-image:url(images/snowy.jpg);
     background-attachment: fixed;
