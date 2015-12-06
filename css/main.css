@@ -54,14 +54,14 @@ body {
     background-image:url(images/snowy.jpg);
     background-attachment: fixed;
 }
-/* Заголовок сайту */
+/* the name of the website */
 #heading {
     color:#fff;
     font-family: 'Lobster Two', cursive;
     font-size:35px;
     padding:10px 45px 0 10px;
 }
-/* Горизонтальне меню */
+/* a horizontal menu */
 #navigation {
     height: 60px;
     background: #000;
@@ -85,14 +85,14 @@ body {
     background: rgba(21, 78, 234, 0.85);
     text-decoration: underline;
 }
-/* поле пошуку */
+/* the search field */
 #searching {
     margin-top:20px;
     position:fixed;
     right:50px;
 
 }
-/*головне поле*/
+/*the main section*/
 article {
     position:relative;
     height: 140px;
