@@ -39,10 +39,13 @@ body {
 }
 /* the search field */
 #searching {
-    margin-top:20px;
     position:fixed;
-    right:50px;
+    top:20px;
+    left:800px;
 
+}
+#search_area {
+    border-radius:8px;
 }
 /*the main section*/
 article {
