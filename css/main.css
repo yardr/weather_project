@@ -65,6 +65,7 @@ body {
 #navigation {
     height: 60px;
     background: #000;
+    min-width:600px;
 }
 
 #navigation ul li {
