@@ -51,7 +51,7 @@ table {
 html, body, #wrapper {height:100%;}
 
 body {
-    background-image:url(images/background.jpg);
+    background-image:url(../images/background.jpg);
     background-attachment: fixed;
 }
 /* the name of the website */
