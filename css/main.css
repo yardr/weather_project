@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two);
-html, body, #wrapper {height:100%;}
+
+html, body {height:100%;}
+#wrapper {min-height:100%;}
 
 body {
     background-image:url(../images/background.jpg);
@@ -58,6 +60,25 @@ article {
     margin-right:150px;
     margin-bottom:auto;
     border-radius:20px;
+}
+/* footer */
+
+
+footer {
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    height:40px;
+    background-color:#000;
+}
+footer p {
+    width:20%;
+    padding-top:8px;
+    color:#fff;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    margin:auto;
+    
 }
 
 
