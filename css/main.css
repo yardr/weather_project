@@ -52,7 +52,7 @@ body {
 /*the main section*/
 article {
     position:relative;
-    height: 140px;
+    max-height: 140px;
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
     margin-top: 90px;
