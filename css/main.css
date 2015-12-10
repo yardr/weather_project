@@ -56,8 +56,8 @@ article {
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
     margin-top: 90px;
-    margin-left:150px;
-    margin-right:150px;
+    margin-left:auto;
+    margin-right:auto;
     margin-bottom:auto;
     border-radius:20px;
 }
