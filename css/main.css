@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two);
 
-html, body {height:100%;}
+html, body {height:100%; width:100%;}
 #wrapper {min-height:100%;}
 
 body {
