@@ -18,6 +18,7 @@ body {
 #navigation {
     height: 60px;
     background: #000;
+    width:100%;
     min-width:600px;
 }
 
