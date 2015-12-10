@@ -51,7 +51,6 @@ body {
 }
 /*the main section*/
 article {
-    display:block;
     position:relative;
     max-height: 140px;
     background-color: rgba(217, 221, 237, 0.8);
@@ -67,6 +66,7 @@ article {
 
 footer {
     width:100%;
+    min-width:600px;
     position:fixed;
     bottom:0px;
     height:40px;
