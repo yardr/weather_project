@@ -82,6 +82,8 @@ footer p {
     margin:auto;
     
 }
-.field {clear:both; 
-        text-align:right;}
+#feedback { width: 400px; }
+form section div { float: left; }
+form section div.full { clear: both; }
+form section div label { display: block; }
 #imgbut {width:20px;}

@@ -23,27 +23,28 @@
            </ul>
        </div>
        <article>
-         <form action="#" method="post" autocomplete="on"id="feedback">
-             <textfield>
-                 <legend>Send me a message</legend>
-                  <div class="field">
-                   <label for="n" class="lblcontct">Name</label>
-                   <input type="text" id="n" />
-                </div>
-                <div class="field">
-                   <label for="eml" class="lblcontct">E-mail</label>
-                   <input type="text" id="eml" />
-                </div>
-                <div class="field">
-                   <label for="txta" class="lblcontct">Enter text here</label>
-                   <input type="textarea" id="txta" rows="5">
-                </div>
-                <div class="field">
-                    <input type="image" src="images/sendbutton.png" id="imgbut">
-                </div>
-             </textfield>
-             
-         </form>
+         <form name="message" method="post" id="feedback">
+    <section>
+    <div>
+      <label for="name">Name</label>
+      <input id="name" type="text" value="" name="name">
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input id="email" type="text" value="" name="email">
+    </div>
+    </section>
+    <section>
+    <div>
+      <label for="subject">Subject</label>
+      <input id="subject" type="text" value="" name="subject">
+    </div>
+    <div class="full">
+      <label for="message">Message</label>
+      <input id="message" type="text" value="" name="message">
+    </div>
+    </section>
+</form>
        </article>
    </div>
    <footer>
