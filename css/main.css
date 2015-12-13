@@ -82,6 +82,9 @@ footer p {
     margin:auto;
     
 }
+.field {clear:both; 
+        text-align:right;}
+.lblcontct {float:left;}
+.main {float:left;}
 
-
-
+#imgbut {width:20px;}
