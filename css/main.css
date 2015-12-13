@@ -82,6 +82,7 @@ footer p {
     margin:auto;
     
 }
+#feedback {float:left;}
 .field {clear:both; 
         text-align:right;}
 #imgbut {width:20px;}
