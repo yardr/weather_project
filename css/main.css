@@ -82,8 +82,7 @@ footer p {
     margin:auto;
     
 }
-#feedback { width: 400px; }
-form section div { float: left; }
-form section div.full { clear: both; }
-form section div label { display: block; }
+#feedback {
+    width:40%;
+}
 #imgbut {width:20px;}
