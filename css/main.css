@@ -43,9 +43,8 @@ body {
 /* the search field */
 #searching {
     position:fixed;
-    top:20px;
+    vertical-align:middle;
     left:800px;
-    height:32px;
 
 }
 #inputCityName {
