@@ -45,6 +45,7 @@ body {
     position:fixed;
     top:20px;
     left:800px;
+    width:auto;
 
 }
 #inputCityName {
