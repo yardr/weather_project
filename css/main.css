@@ -50,7 +50,9 @@ body {
 #inputCityName {
     border-radius:8px;
 }
-#btnGetWeather {width:32px;}
+#btnGetWeather {width:32px;
+                position:absolute;
+}
 /*the main section*/
 article {
     position:relative;
