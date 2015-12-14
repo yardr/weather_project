@@ -43,16 +43,16 @@ body {
 /* the search field */
 #searching {
     position:fixed;
-    top:20px;
+    vertical-align:middle;
     left:800px;
 
 }
 #inputCityName {
     border-radius:8px;
-    vertical-align:middle;
+    vertical-align:inherit;
 }
 #btnGetWeather {width:25px;
-                vertical-align:middle;
+                vertical-align:inherit;
 }
 /*the main section*/
 article {
