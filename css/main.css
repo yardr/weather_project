@@ -49,6 +49,7 @@ body {
 }
 #inputCityName {
     border-radius:8px;
+    vertical-align:middle;
 }
 #btnGetWeather {width:25px;
                 vertical-align:middle;
