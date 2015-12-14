@@ -45,12 +45,11 @@ body {
     position:fixed;
     top:20px;
     left:800px;
+    height:32px;
 
 }
 #inputCityName {
     border-radius:8px;
-    vertical-align:middle;
-    height:30px;
 }
 #btnGetWeather {width:30px;
                 
