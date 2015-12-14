@@ -49,10 +49,9 @@ body {
 }
 #inputCityName {
     border-radius:8px;
+    width:auto;
 }
 #btnGetWeather {width:25px;
-                position:relative;
-                padding:auto;
 }
 /*the main section*/
 article {
