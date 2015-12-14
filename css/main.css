@@ -52,7 +52,7 @@ body {
     vertical-align:middle;
 }
 #btnGetWeather {width:30px;
-                margin:20px, 20px;
+                vertical-align:middle;
 }
 /*the main section*/
 article {
