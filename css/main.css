@@ -51,7 +51,7 @@ body {
     border-radius:8px;
 }
 #btnGetWeather {width:32px;
-                position:absolute;
+                top:20px;
 }
 /*the main section*/
 article {
