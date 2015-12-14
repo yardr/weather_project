@@ -50,8 +50,9 @@ body {
 #inputCityName {
     border-radius:8px;
 }
-#btnGetWeather {width:32px;
-                margin:auto;
+#btnGetWeather {width:25px;
+                position:relative;
+                padding:auto;
 }
 /*the main section*/
 article {
