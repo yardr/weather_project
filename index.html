@@ -5,8 +5,6 @@
    <title>WEATHER INFORMER</title>
    <link rel="stylesheet" href="css/nulling.css">
    <link rel="stylesheet" href="css/main.css">
-   <script src="scripts/weatherService.js"></script>
-   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
    <!--<script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>-->
   </head>
   <body>
@@ -26,6 +24,10 @@
            </ul>
        </div>
        <article>
+           <p>City: <span id="location" ></span></p>
+           <table id="temp">
+               
+           </table>
            <!-- <a href="http://www.accuweather.com/en/ua/lviv/324561/weather-forecast/324561" class="aw-widget-legal">
             </a><div id="awcc1449765868951" class="aw-widget-current"  data-locationkey="324561" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1449765868951">
                 </div>-->
@@ -34,5 +36,9 @@
    <footer>
         <p>Created by Yaroslav Drahan &copy;</p>
     </footer> 
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
