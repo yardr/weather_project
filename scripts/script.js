@@ -9,7 +9,7 @@ function locationSuccess(position)
    $.getJSON(weatherAPI, function(response) 
    {
      console.log(response);
-     $('#loc').html(response.city.name);
+     $('#location').html(response.city.name);
      $('#currenttemp').html(parseInt(response.list[0].main.temp - 273.15)+'&deg;C');
      for(var i = 1; i < 40; i = i + 8)
      {
