@@ -5,7 +5,7 @@ $(function() {
 function locationSuccess(position) 
 {
    var weatherAPI = 'http://api.openweathermap.org/data/2.5/forecast?lat='+position.coords.latitude+
-                                    '&lon='+position.coords.longitude+'&APPID=6f4cc0e79d6e2b4528e54c175d577947&callback=?';
+                                    '&lon='+position.coords.longitude+'&APPID=93423cd537d8b5132f4cff5001224210&callback=?';
    $.getJSON(weatherAPI, function(response) 
    {
      console.log(response);
