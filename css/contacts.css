@@ -11,6 +11,8 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
     padding:10px 45px 0 10px;}
 /* a horizontal menu */
 #navigation {
+	position:fixed;
+	top:0;
     height:60px;
     background:#000;
     width:100%;
