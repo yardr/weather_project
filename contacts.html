@@ -1,53 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-   <meta charset="UTF-8">
-   <title>WEATHER INFORMER</title>
-   <link rel="stylesheet" href="css/nulling.css">
-   <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-   <div id="wrapper">
-       <div id="navigation">
-           <ul id="styles">
-               <li id="heading">Weather Informer</li>
-               <li><a href="index.html">HOME</a></li>
-               <li><a href=#>Weather Facts</a></li>
-               <li><a href=#>Contacts</a></li>
-               <li id="searching">
-                <form action="" method="post">
-                        <input type="search" name="cityName" id="inputCityName" placeholder="Enter your location"> 
-                        <input type="submit" id="btnGetWeather" value="Get Weather" name="search_button">
-                </form>
-               </li>
-           </ul>
-       </div>
-       <article>
-         <form action="#" method="post" autocomplete="on"id="feedback">
-             <textfield>
-                 <legend id="sendme">Send me a message</legend><br/>
-                  <label for="n" class="lblcontct">Name</label>
-                  <div class="field">
-                   <input type="text" id="n" required />
-                </div>
-                <label for="eml" class="lblcontct" required>E-mail</label>
-                <div class="field">
-                   <input type="text" id="eml" />
-                </div>
-                <label for="txta" class="lblcontct" rows="25">Enter text here</label>
-                <div class="field">
-                   <textarea id="txta" rows="5" cols="15"></textarea>
-                </div></br>
-                <div class="field">
-                    <input type="image" src="images/sendbutton.png" id="imgbut">
-                </div>
-             </textfield>
-             
-         </form>
-       </article>
-   </div>
-   <footer>
-        <p>Created by Yaroslav Drahan &copy;</p>
-    </footer> 
-  </body>
+<head>
+	<meta charset="utf-8" />
+	<title>Contact Form</title>
+	<script  src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+    <link rel="stylesheet" href="css/contacts.css">
+	<!--[if IE]><script>
+	$(document).ready(function() { 
+
+$("#form_wrap").addClass('hide');
+
+})
+
+</script><![endif]-->
+
+
+</head>
+<body>
+	<div id="wrap">
+		<h1>Send a message</h1>
+		<div id='form_wrap'>
+			<form>
+				<p>Hello Yaroslav,</p>
+				<label for="email">Your Message : </label>
+				<textarea  name="message" value="Your Message" id="message" ></textarea>
+				<p>Best Regards,</p>	
+				<label for="name">Name: </label>
+				<input type="text" name="name" value="" id="name" />
+				<label for="email">Email: </label>
+				<input type="text" name="email" value="" id="email" />
+				<input type="submit" name ="submit" value="Now, I send, thanks!" />
+			</form>
+		</div>
+	</div>
+More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+</body>
 </html>

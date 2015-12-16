@@ -13,8 +13,7 @@ function locationSuccess(position)
      $('#currenttemp').html(parseInt(response.list[0].main.temp - 273.15)+'&deg;C');
      for(var i = 1; i < 40; i = i + 8)
      {
-       $('#temp').append('<tr><td>Date: '+ response.list[i].dt_txt+'</td><td>'+
-       parseInt(response.list[i].main.temp - 273.15)+'&deg;C</td></tr>');
+       $('#temp').append('<tr><td>Date: '+ response.list[i].dt_txt+'</td><td>'
      }
    });
 }
