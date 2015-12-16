@@ -18,6 +18,7 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 
 #navigation ul li {
     float: left;
+    list-style-type:none;
 }
 #navigation ul li a {
     color: #fff;
