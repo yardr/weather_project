@@ -100,6 +100,32 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #0
 			transition: opacity .5s ease-in-out 1.3s;}
 
 			#form_wrap:hover input:hover[type=submit] {color:#435c70;}
+/* a horizontal menu */
+#navigation {
+    height: 60px;
+    background: #000;
+    width:100%;
+    min-width:600px;
+}
+
+#navigation ul li {
+    float: left;
+}
+#navigation ul li a {
+    color: #fff;
+    padding: 0 20px;
+    font-family: "Cookie";
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    height: 60px;
+}
+
+#navigation ul li a:hover {
+    background: rgba(21, 78, 234, 0.85);
+    text-decoration: underline;
+}
 /* footer */
 footer {
     width:100%;
