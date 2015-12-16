@@ -1,23 +1,16 @@
 $(function() {
-  navigator.geolocation.getCurrentPosition(locationSuccess, locationError);  
+    $.getJSON('http://api.openweathermap.org/data/2.5/forecast/daily?q=Melbourne' + 
+              '&units=metric&cnt=3&appid=2de143494c0b295cca9337e1e96b00e0', 
+        function(data) {
+            $('#tempToday').html(data.list[0].temp.day);
+            $('#tempTomorrow').html(data.list[1].temp.day);
+            $('#tempAfterTomorrow').html(data.list[2].temp.day);
+            $('#pressureToday').html(data.list[0].pressure);
+            $('#pressureTomorrow').html(data.list[1].pressure);
+            $('#pressureAfterTomorrow').html(data.list[2].pressure);
+            $('#iconToday').html('<img src="/icons/'+ data.list[0].weather[0].icon + '.png" alt="Weather icon">');
+            $('#iconTomorrow').html('<img src="/icons/'+ data.list[1].weather[0].icon + '.png" alt="Weather icon">');
+            $('#iconAfterTomorrow').html('<img src="/icons/'+ data.list[2].weather[0].icon + '.png" alt="Weather icon">');
+        }
+    );
 });
-
-function locationSuccess(position) 
-{
-   var weatherAPI = 'http://api.openweathermap.org/data/2.5/forecast?lat='+position.coords.latitude+
-                                    '&lon='+position.coords.longitude+'&APPID=93423cd537d8b5132f4cff5001224210&callback=?';
-   $.getJSON(weatherAPI, function(response) 
-   {
-     console.log(response);
-     $('#location').html(response.city.name);
-     $('#currenttemp').html(parseInt(response.list[0].main.temp - 273.15)+'&deg;C');
-     for(var i = 1; i < 40; i = i + 8)
-     {
-       $('#temp').append('<tr><td>Date: '+ response.list[i].dt_txt+'</td><td>'
-     }
-   });
-}
-             
-function locationError(error) {
-   console.warn('Error:' + error.message);
-}

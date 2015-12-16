@@ -24,19 +24,29 @@
            </ul>
        </div>
        <article>
-           <p>City: <span id="location" ></span></p>
-           <p id="currenttemp"></p>
-           <table id="temp">
-               
-           </table>
+          <h1>Weather in Melbourne</h1>
+        <table>
+            <tr>
+                <th>Today</th><th>Tomorrow</th><th>After Tomorrow</th>
+            </tr>
+            <tr>
+                <td id="tempToday"></td><td id="tempTomorrow"></td><td id="tempAfterTomorrow"></td>
+            </tr>
+            <tr>
+                <td id="pressureToday"></td><td id="pressureTomorrow"></td><td id="pressureAfterTomorrow"></td>
+            </tr>
+            <tr>
+                <td id="iconToday"></td><td id="iconTomorrow"></td><td id="iconAfterTomorrow"></td>
+            </tr>
+        </table> 
        </article>
    </div>
    <footer>
         <p>Created by Yaroslav Drahan &copy;</p>
     </footer> 
     
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>
