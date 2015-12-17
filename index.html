@@ -25,18 +25,60 @@
        </div>
        <article>
           <h1>Weather in Lviv</h1>
-        <table>
-            <tr>
+        <table border="1">
+            <!--<tr>
                 <th>Today</th><th>Tomorrow</th><th>After Tomorrow</th>
+            </tr>-->
+            <tr>
+                <td id="day1"></td>
+                <td id="day2"></td>
+                <td id="day3"></td>
+                <td id="day4"></td>
+                <td id="day5"></td>
             </tr>
             <tr>
-                <td id="tempToday"></td><td id="tempTomorrow"></td><td id="tempAfterTomorrow"></td>
+                <td>Day</td>
+                <td>Day</td>
+                <td>Day</td>
+                <td>Day</td>
+                <td>Day</td>
             </tr>
             <tr>
-                <td id="pressureToday"></td><td id="pressureTomorrow"></td><td id="pressureAfterTomorrow"></td>
+                <td id="tempToday"></td>
+                <td id="tempTomorrow"></td>
+                <td id="tempAfterTomorrow"></td>
+                <td id="tempAfter"></td>
+                <td id="tempAfterAfter"></td>
             </tr>
             <tr>
-                <td id="iconToday"></td><td id="iconTomorrow"></td><td id="iconAfterTomorrow"></td>
+                <td>Night</td>
+                <td>Night</td>
+                <td>Night</td>
+                <td>Night</td>
+                <td>Night</td>
+                
+            </tr>
+            <tr>
+                <td id="temptoNight"></td>
+                <td id="temptomNight"></td>
+                <td id="tempaftertomNight"></td>
+                <td id="tempafterafterNight"></td>
+                <td id="temp2afterNight"></td>
+                
+            </tr>
+            <tr>
+                <td id="pressureToday"></td>
+                <td id="pressureTomorrow"></td>
+                <td id="pressureAfterTomorrow"></td>
+                <td id="pressureAfter"></td>
+                <td id="pressureAfterAfter"></td>
+            </tr>
+            <tr>
+                <td id="icon1"></td>
+                <td id="icon2"></td>
+                <td id="icon3"></td>
+                <td id="icon4"></td>
+                <td id="icon5"></td>
             </tr>
         </table> 
        </article>
@@ -44,8 +86,8 @@
    <footer>
         <p>Created by Yaroslav Drahan &copy;</p>
     </footer> 
-    
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts/moment-with-locales.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
   </body>
 </html>
