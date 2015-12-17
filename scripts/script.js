@@ -4,7 +4,7 @@ $(function() {
         + 'Lviv' + '&APPID=93423cd537d8b5132f4cff5001224210&cnt=16&units=metric' + '&lang=' + 'eng' + '&callback=?', 
         function(data) {
             var offset = (new Date()).getTimezoneOffset()*60*1000; 
-            $('day1').html(moment(new Date(data.list[0].dt*1000 - offset)).calendar());
+            $('#day1').html(moment(new Date(data.list[0].dt*1000 - offset)).calendar());
             $('#tempToday').html(Math.round(data.list[0].temp.day)+' &deg;C');
             $('#tempTomorrow').html(Math.round(data.list[1].temp.day)+' &deg;C');
             $('#tempAfterTomorrow').html(Math.round(data.list[2].temp.day)+' &deg;C');
