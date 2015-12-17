@@ -1,7 +1,7 @@
 $(function() {
    $.getJSON(
         'http://api.openweathermap.org/data/2.5/forecast/daily?q=' 
-        + 'Lviv' + '&APPID=93423cd537d8b5132f4cff5001224210&cnt=5&units=metric' + '&lang=' + 'eng' + '&callback=?', 
+        + 'Lviv' + '&APPID=93423cd537d8b5132f4cff5001224210&cnt=16&units=metric' + '&lang=' + 'eng' + '&callback=?', 
         function(data) {
             var offset = (new Date()).getTimezoneOffset()*60*1000; 
             $('day1').html(moment(new Date(data.list[0].dt*1000 - offset)).calendar());
