@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-      <link rel="shortcut icon href=">
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
    <meta charset="UTF-8">
    <title>WEATHER INFORMER</title>
    <link rel="stylesheet" href="css/nulling.css">
@@ -16,7 +16,7 @@
                <li><a href=#>Weather Facts</a></li>
                <li><a href="contacts.html">Contacts</a></li>
                <li id="searching">
-                <form action="" method="post">
+                <form id="formCity">
                         <input type="text" name="cityName" id="inputCityName" placeholder="Enter your location"> 
                         <input type="submit" id="btnGetWeather" value="Get Weather" name="search_button">
                 </form>
@@ -24,24 +24,14 @@
            </ul>
        </div>
        <article>
-          <h1>Weather in Lviv</h1></br>
-        <table border="1">
-            <!--<tr>
-                <th>Today</th><th>Tomorrow</th><th>After Tomorrow</th>
-            </tr>-->
+           <p>City: <span id="location" ></span></p>
+        <table id="weatherTable" border="1">
             <tr>
                 <td id="day1"></td>
                 <td id="day2"></td>
                 <td id="day3"></td>
                 <td id="day4"></td>
                 <td id="day5"></td>
-            </tr>
-            <tr>
-                <td>Day</td>
-                <td>Day</td>
-                <td>Day</td>
-                <td>Day</td>
-                <td>Day</td>
             </tr>
             <tr>
                 <td id="tempToday"></td>
@@ -88,6 +78,7 @@
     </footer> 
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="scripts/moment-with-locales.js"></script>
+    <script type="text/javascript" src="scripts/weather-by-city.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
   </body>
 </html>
