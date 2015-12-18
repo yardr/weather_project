@@ -17,60 +17,19 @@
                <li><a href="contacts.html">Contacts</a></li>
                <li id="searching">
                 <form id="formCity">
-                        <input type="text" name="cityName" id="inputCityName" placeholder="Enter your location"> 
-                        <input type="submit" id="btnGetWeather" value="Get Weather" name="search_button">
+                        <input type="text" id="inputCityName" name="cityName" placeholder="Enter your location"> 
+                        <input type="button" value="Get Weather" id="btnGetWeather">
                 </form>
                </li>
            </ul>
        </div>
        <article>
-           <p>City: <span id="location" ></span></p>
-        <table id="weatherTable" border="1">
+           <p><span id="location" ></span></p>
+         <table id="weatherTable">
             <tr>
-                <td id="day1"></td>
-                <td id="day2"></td>
-                <td id="day3"></td>
-                <td id="day4"></td>
-                <td id="day5"></td>
+                <th>When</th><th>Sky</th><th>Temperature</th><th>Condition</th>
             </tr>
-            <tr>
-                <td id="tempToday"></td>
-                <td id="tempTomorrow"></td>
-                <td id="tempAfterTomorrow"></td>
-                <td id="tempAfter"></td>
-                <td id="tempAfterAfter"></td>
-            </tr>
-            <tr>
-                <td>Night</td>
-                <td>Night</td>
-                <td>Night</td>
-                <td>Night</td>
-                <td>Night</td>
-                
-            </tr>
-            <tr>
-                <td id="temptoNight"></td>
-                <td id="temptomNight"></td>
-                <td id="tempaftertomNight"></td>
-                <td id="tempafterafterNight"></td>
-                <td id="temp2afterNight"></td>
-                
-            </tr>
-            <tr>
-                <td id="pressureToday"></td>
-                <td id="pressureTomorrow"></td>
-                <td id="pressureAfterTomorrow"></td>
-                <td id="pressureAfter"></td>
-                <td id="pressureAfterAfter"></td>
-            </tr>
-            <tr>
-                <td id="icon1"></td>
-                <td id="icon2"></td>
-                <td id="icon3"></td>
-                <td id="icon4"></td>
-                <td id="icon5"></td>
-            </tr>
-        </table> 
+        </table>
        </article>
    </div>
    <footer>
