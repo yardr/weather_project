@@ -66,6 +66,7 @@ height:25px;
 article {
     position:relative;
     max-width: 800px;
+    overflow-y:scroll;
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
     margin-top: 90px;
