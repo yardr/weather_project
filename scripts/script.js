@@ -1,7 +1,7 @@
 $(function(){
     // Adding handler for inputCityName button
     $('#btnGetWeather').click(function () {
-        getWeatherByCity('eng', dataReceived, showError, $('#inputCityName').val());
+        getWeatherByCity('en', dataReceived, showError, $('#inputCityName').val());
     });
     // Adding handler for 'Enter' key on keyboard
     $('#inputCityName').keypress(function(e) {
@@ -27,19 +27,21 @@ $(function(){
                 this.weather[0].icon,
                 moment(localTime).calendar(),	// Use moment.js for date format
                 this.weather[0].description,
-                Math.round(this.temp.day) + '&deg;C'
+                Math.round(this.temp.day) + '&deg;C',
+                this.humidity + '%'
             );
         });
         $('#location').html(city + ', <b>' + country + '</b>'); // Adding location
     }
 
-    function addWeather(icon, day, condition, temp){
+    function addWeather(icon, day, condition, temp, humidity){
         var markup = '<tr>'+
                 '<td>' + day + '</td>' +
                 '<td>' + '<img src="images/'+ icon +'.png" />' + '</td>' +
                 '<td>' + temp + '</td>' +
-                '<td>' + condition + '</td>'
-            + '</tr>';
+                '<td>' + condition + '</td>'+
+                '<td>' + humidity + '</td>' + 
+                '</tr>';
         weatherTable.insertRow(-1).innerHTML = markup; // Adding table row
     }
 

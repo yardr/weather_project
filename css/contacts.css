@@ -136,19 +136,33 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #0
 			#form_wrap:hover input:hover[type=submit] {color:#435c70;}
 			
 /* footer */
+
+
 footer {
     width:100%;
-    min-width:600px;
-    position:fixed;
-    bottom:0px;
-    height:40px;
-    background-color:#000;
+    text-align:center;
+	height:50px;
+	position:fixed;
+	bottom:0;
+	left:0;
+    clear: both;
+    background-color:#eee;
 }
-footer p {
-    width:20%;
-    padding-top:8px;
-    color:#fff;
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    margin:auto;
+
+footer ul {
+    width:30%;
+    display:block;
+    padding: 0;
+    margin: auto;
+    height: 50px;
+    line-height: 50px;
+}
+footer li {
+	list-style:none;
+    float:left;
+    vertical-align:middle;
+}
+#facebook {
+    position:fixed;
+    right:50px;
 }
