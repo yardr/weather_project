@@ -36,11 +36,11 @@ $(function(){
 
     function addWeather(icon, day, condition, temp, humidity){
         var markup = '<tr>'+
-                '<td>' + day + '</td>' +
-                '<td>' + '<img src="images/'+ icon +'.png" />' + '</td>' +
-                '<td>' + temp + '</td>' +
-                '<td>' + condition + '</td>'+
-                '<td>' + humidity + '</td>' + 
+                '<td class="output">' + day + '</td>' +
+                '<td class="output">' + '<img src="images/'+ icon +'.png" />' + '</td>' +
+                '<td class="output">' + temp + '</td>' +
+                '<td class="output">' + condition + '</td>'+
+                '<td class="output">' + humidity + '</td>' + 
                 '</tr>';
         weatherTable.insertRow(-1).innerHTML = markup; // Adding table row
     }
