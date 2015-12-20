@@ -1,21 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two);
 
 html, body {height:100%; width:100%;}
-#wrapper {min-height:100%;}
+#wrapper {
+    min-height:100%;
+    
+}
 
 body {
     background-image:url(../images/background.jpg);
     background-attachment: fixed;
 
 }
-/* the name of the website */
+
+/* a horizontal menu */
 #heading {
     color:#000;
     font-family: 'Lobster Two', cursive;
     font-size:35px;
-    padding:10px 45px 0 10px;
+    padding:10px 45px 0 80px;
 }
-/* a horizontal menu */
+#logocell {
+    position:absolute;
+    left:20px;
+}
+#logo {
+    width:64px;
+}
 #navigation {
     height: 60px;
     background: #eee;
@@ -43,7 +53,7 @@ body {
 }
 /* the search field */
 #searching {
-    position:fixed;
+    position:absolute;
     top:20px;
     left:800px;
 
@@ -66,7 +76,6 @@ height:25px;
 article {
     position:relative;
     max-width: 800px;
-    overflow-y:scroll;
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
     margin-top: 90px;
@@ -92,7 +101,7 @@ footer {
     min-width:600px;
     text-align:center;
 	height:50px;
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	left:0;
     clear: both;
@@ -110,8 +119,4 @@ footer ul {
 footer li {
     float:left;
     vertical-align:middle;
-}
-#facebook {
-    position:fixed;
-    right:50px;
 }
