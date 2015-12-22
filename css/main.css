@@ -173,13 +173,16 @@ article {
 }
 /* footer */
 
-
+#indent {
+    height:50px;
+}
 footer {
     width:100%;
     min-width:600px;
     text-align:center;
 	height:50px;
-	position:fixed;
+	position:relative;
+	top:-50px;
 	bottom:0;
 	left:0;
     clear: both;
