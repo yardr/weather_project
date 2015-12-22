@@ -108,10 +108,10 @@ article {
 	float:left;
 	text-align:center;
 	padding:2px;
-	border: solid 1px #000000;
-	border-radius:5px;
+	border: solid 1px white;
+	border-radius:8px;
 	margin:2px;
-	background-color: rgba(35, 105, 108, 0.57);
+	background-color: rgba(35, 105, 108, 0.39);
 }
 .temperature {
     display:block;
@@ -165,6 +165,7 @@ article {
 	text-align:center;
 	padding:2px;
 	margin:2px;
+	margin-bottom:20px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight:bold;
 	font-size:20px;
