@@ -1,7 +1,9 @@
 $(function(){
+    $('article').hide();
     // Adding handler for inputCityName button
     $('#btnGetWeather').click(function () {
         getWeatherByCity('en', dataReceived, showError, $('#inputCityName').val());
+        $('article').show(); 
     });
     // Adding handler for 'Enter' key on keyboard
     $('#inputCityName').keypress(function(e) {
@@ -28,19 +30,21 @@ $(function(){
                 moment(localTime).calendar(),	// Use moment.js for date format
                 this.weather[0].description,
                 Math.round(this.temp.day) + '&deg;C',
-                this.humidity + '%'
+                this.humidity + '%',
+                this.speed +' m/s'
             );
         });
         $('#location').html(city + ', <b>' + country + '</b>'); // Adding location
     }
 
-    function addWeather(icon, day, condition, temp, humidity){
+    function addWeather(icon, day, condition, temp, humidity,speed){
         var markup = '<tr>'+
-                '<td class="output">' + day + '</td>' +
-                '<td class="output">' + '<img src="images/'+ icon +'.png" />' + '</td>' +
-                '<td class="output">' + temp + '</td>' +
-                '<td class="output">' + condition + '</td>'+
-                '<td class="output">' + humidity + '</td>' + 
+                '<td class="days">'+day + '</td>' +
+                '<td class="images">'+'<img src="images/'+ icon +'.png" />' + '</td>' +
+                '<td class="temperature">'+temp + '</td>'+
+                '<td class="conditions">'+condition + '</td>'+
+                '<td class="humid">'+ humidity + '</td>' + 
+                '<td class="windspeed">'+speed + '</td>'+
                 '</tr>';
         weatherTable.insertRow(-1).innerHTML = markup; // Adding table row
     }

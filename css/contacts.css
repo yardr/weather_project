@@ -60,7 +60,7 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 /*not my styles*/
 body {background: #ccc url('../images/background.jpg'); color: #7c7873; font-family: 'YanoneKaffeesatzRegular';}
 p {text-shadow:0 1px 0 #fff; font-size:24px;}
-#wrap {width:530px; margin:20px auto 0; height:1000px;}
+#wrap {width:530px; margin:55px auto 0; height:1000px;}
 h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #091272; }
 
 
@@ -171,8 +171,4 @@ footer li {
 	list-style:none;
     float:left;
     vertical-align:middle;
-}
-#facebook {
-    position:fixed;
-    right:50px;
 }

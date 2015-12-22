@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two);
+@import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two|Yanone+Kaffeesatz);
 
 html, body {height:100%; width:100%;}
 #wrapper {
@@ -78,7 +78,7 @@ article {
     max-width: 800px;
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:auto;
@@ -87,11 +87,87 @@ article {
 #location {
     color:#2828ad;
     font-family: 'Cookie', cursive;
-    font-size:24px;
+    font-size:30px;
 }
+/*weather data*/
+.days {
+	display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+.images {
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	border: solid 1px #000000;
+	border-radius:5px;
+	margin:2px;
+	background-color: rgba(35, 105, 108, 0.57);
+}
+.temperature {
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+.conditions {
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+.humid {
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+.windspeed {
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+/*Heading of the table*/
 .output {
-    text-align:center;
-    vertical-align:middle;
+    display:block;
+	width:90px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:bold;
+	font-size:20px;
+    
 }
 /* footer */
 
@@ -101,7 +177,7 @@ footer {
     min-width:600px;
     text-align:center;
 	height:50px;
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	left:0;
     clear: both;
