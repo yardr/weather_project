@@ -32,17 +32,17 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 }
 #navigation ul li a {
     color: #000;
-    padding: 10px 10px;
+    padding: 0 20px;
     font-family: "Cookie";
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
-    line-height: inherit;
+    line-height: 60px;
     display: block;
-    height: inherit;
+    height: 60px;
 }
 
 #navigation ul li a:hover {
-    background: rgba(21, 78, 234, 0.85);
+    background: rgba(14, 183, 164, 0.78);
     text-decoration: underline;
 }
 
@@ -60,7 +60,7 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 /*not my styles*/
 body {background: #ccc url('../images/background.jpg'); color: #7c7873; font-family: 'YanoneKaffeesatzRegular';}
 p {text-shadow:0 1px 0 #fff; font-size:24px;}
-#wrap {width:530px; margin:55px auto 0; height:1000px;}
+#wrap {width:530px; margin:70px auto 0; height:1000px;}
 h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #091272; }
 
 
@@ -171,4 +171,5 @@ footer li {
 	list-style:none;
     float:left;
     vertical-align:middle;
+    color:black;
 }

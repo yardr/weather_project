@@ -40,7 +40,7 @@ body {
     color: #000;
     padding: 0 20px;
     font-family: "Cookie";
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     line-height: 60px;
     display: block;
@@ -48,7 +48,7 @@ body {
 }
 
 #navigation ul li a:hover {
-    background: rgba(21, 78, 234, 0.85);
+    background: rgba(14, 183, 164, 0.78);
     text-decoration: underline;
 }
 /* the search field */
@@ -64,9 +64,10 @@ body {
 #inputCityName, #btnGetWeather {
     vertical-align:middle;
 }
-#btnGetWeather {border: 2px solid white;
+#btnGetWeather {
+border: 2px solid white;
 border-radius:5px;
-background: rgba(21, 78, 234, 0.85);
+background: rgb(14, 183, 164);
 color:white;
 width:90px;
 height:25px;
@@ -167,6 +168,7 @@ article {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight:bold;
 	font-size:20px;
+	color:rgb(14, 183, 164);
     
 }
 /* footer */
