@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two|Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Cookie|Lobster+Two|Yanone+Kaffeesatz|Lobster);
 
 html, body {height:100%; width:100%;}
 #wrapper {
@@ -63,9 +63,12 @@ article {
     margin-bottom:auto;
     border-radius:20px;
 }
-h1 {color:#2828ad;
-    font-family: 'Yanone Kaffeesatz',sans-serif;
-    font-size:30px;}
+article h1 {color:#2828ad;
+    font-family: 'Lobster';
+    font-size:26px;
+    letter-spacing:1px;
+    text-shadow:3px 3px 0 rgba(0, 0, 0, 0.2);
+}
 h2 {
     margin-top:10px;
     margin-bottom:5px;
