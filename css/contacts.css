@@ -10,6 +10,10 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
     font-size:35px;
     padding:10px 45px 20px 80px;
 }
+#heading:hover {
+    color:rgb(14, 183, 164);
+    cursor:default;
+}
 #logocell {
     position:absolute;
     left:20px;
