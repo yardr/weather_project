@@ -47,6 +47,7 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 
 #navigation ul li a:hover {
     background: rgba(14, 183, 164, 0.78);
+    color:white;
     text-decoration: underline;
 }
 

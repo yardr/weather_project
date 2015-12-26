@@ -53,6 +53,7 @@ body {
 
 #navigation ul li a:hover {
     background: rgba(14, 183, 164, 0.78);
+    color:white;
     text-decoration: underline;
 }
 /* the search field */
