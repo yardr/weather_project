@@ -63,11 +63,9 @@ article {
     min-height:100%;
     background-color: rgba(217, 221, 237, 0.8);
     padding:15px;
-    margin-top: 70px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:auto;
+    margin: 70px auto;
     border-radius:20px;
+    text-align:justify;
 }
 article h1 {color:#2828ad;
     font-family: 'Lobster';
