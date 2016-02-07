@@ -40,7 +40,13 @@ $("#form_wrap").addClass('hide');
 				<input type="text" name="name" value="" id="name" />
 				<label for="email">Email: </label>
 				<input type="text" name="email" value="" id="email" />
-				<input type="submit" name ="submit" value="Now, I send, thanks!" />
+				<div class="send_button">
+				<input type="submit" name ="submit" id="send" onmouseover="react()" onmouseout="out()" value="Now, I send, thanks!" />
+				<div class="prompting">
+					The element will work later
+				</div>
+				</div>
+				
 			</form>
 		</div>
 	</div>
@@ -50,5 +56,6 @@ $("#form_wrap").addClass('hide');
            <li id="facebook"><a href="https://www.facebook.com/ydrahan1"><img src="images/facebook.png"></a></li>
        </ul>
     </footer> 
+    <script type="text/javascript" src="scripts/button.js"></script>
 </body>
 </html>
