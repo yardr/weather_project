@@ -13,6 +13,7 @@ body, div, h1,h2, form, fieldset, input, textarea, footer,p {
 #heading:hover {
     color:rgb(14, 183, 164);
     cursor:default;
+    transition: 0.5s;
 }
 #logocell {
     position:absolute;
@@ -162,6 +163,18 @@ div.prompting {
 	z-index:10;
 	font:12px/16px Arial,Helvetica,sans-serif;
 }
+
+.prompting::after {
+	content: "";
+	position: absolute;
+	top:50%;
+	right:100%;
+	margin-top:-5px;
+	border-width:5px;
+	border-style: solid;
+	border-color:transparent #889 transparent transparent;
+	
+}
 div.send_button {
 	position:relative;
 }
@@ -172,7 +185,6 @@ div.send_button:hover .prompting {
 			
 			
 /* footer */
-
 
 footer {
     width:100%;
@@ -186,16 +198,20 @@ footer {
 }
 
 footer ul {
-    width:30%;
+    position: absolute;
     display:block;
     padding: 0;
     margin: auto;
     height: 50px;
+    left: 40%;
     line-height: 50px;
 }
 footer li {
-	list-style:none;
     float:left;
+}
+
+#facebook a img {
+    width: 43px;
+    height: 43px;
     vertical-align:middle;
-    color:black;
 }

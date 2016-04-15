@@ -22,6 +22,7 @@ body {
 #heading:hover {
     color:rgb(14, 183, 164);
     cursor:default;
+    transition: 0.5s;
 }
 #logocell {
     position:absolute;
