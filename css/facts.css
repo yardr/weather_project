@@ -31,6 +31,11 @@ body {
 #logo {
     width:64px;
 }
+#logo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    transition: 2s;
+}
 #navigation {
     height: 60px;
     background: #eee;
@@ -106,5 +111,16 @@ footer ul {
 }
 footer li {
     float:left;
+}
+
+#facebook a img {
+    width: 43px;
+    height: 43px;
     vertical-align:middle;
+}
+
+#facebook a img:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: 1.5s;
 }
