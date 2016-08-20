@@ -2,7 +2,7 @@
 <html>
   <head>
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
    <title>WEATHER INFORMER</title>
    <link rel="stylesheet" href="css/nulling.css">
    <link rel="stylesheet" href="css/main.css">
@@ -10,13 +10,13 @@
   <body>
    <div id="wrapper">
        <div id="navigation">
-           <ul id="styles">
-               <li id="logocell"><img id="logo" src="images/logo.png"></li>
-               <li id="heading">Weather Informer</li>
-               <li><a href=#>HOME</a></li>
-               <li><a href="facts.html">Weather Facts</a></li>
-               <li><a href="contacts.html">Contacts</a></li>
-               <li id="searching">
+           <ul class = "row">
+               <li id="logocell" class = "col-1"><img id="logo" src="images/logo.png"></li>
+               <li id="heading" class = "col-2">WeatherFriend</li>
+               <li class = "col-1"><a href=#>HOME</a></li>
+               <li class = "col-1"><a href="facts.html">Facts</a></li>
+               <li class = "col-1"><a href="contacts.html">Contacts</a></li>
+               <li id="searching" class = "col-3">
                 <form id="formCity">
                         <input type="text" id="inputCityName" name="cityName" placeholder="Enter your location"> 
                         <input type="button" value="Get Weather" id="btnGetWeather">
