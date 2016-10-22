@@ -16,7 +16,7 @@ $(function(){
     });    
     // This function is called when weather data received
     function dataReceived(data) {
-        // Calc time difference from UTC, confert from min to milliseconds
+        // Calc time difference from UTC, convert from min to milliseconds
         var offset = (new Date()).getTimezoneOffset()*60*1000; 
         var city = data.city.name;
         var country = data.city.country;
